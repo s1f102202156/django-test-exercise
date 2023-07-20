@@ -15,7 +15,7 @@
       {% csrf_token %}
       <div>
         <label for="titleInput">Title</label><br>
-        <input id="titleInput" name="title" placeholder="Input title">
+        <input id="titleInput" name="title" type="text" placeholder="Input title">
       </div>
       <div>
         <label for="dueInput">Due at:</label><br>
@@ -23,7 +23,7 @@
       </div>
       <div>
         <label for="contentInput">content:</label><br>
-        <textarea id="contentInput" name="detail_content" type="text" placeholder="Input detail content"></textarea>
+        <textarea id="contentInput" name="detail_content" placeholder="Input detail content"></textarea>
       </div>
       <div>
         <button type="submit">Submit</button>
