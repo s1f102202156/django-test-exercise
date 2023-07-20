@@ -41,7 +41,7 @@ def update(request, task_id):
         task.title = request.POST['title']
         task.due_at = make_aware(parse_datetime(request.POST['due_at']))
         task.save()
-        return redirect(detail, yask_id)
+        return redirect(detail, task_id)
 
         contect = {
             'task': task
