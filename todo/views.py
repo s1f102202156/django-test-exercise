@@ -57,3 +57,4 @@ def open(request, task_id):
     task.completed = False
     task.save()
     return redirect(index)
+  
