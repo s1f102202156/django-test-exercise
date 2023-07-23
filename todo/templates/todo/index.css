@@ -3,6 +3,21 @@ h1{
     text-align: center;
 }
 
+label{
+    font-weight: bold;
+}
+
+.submit{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Sort{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 5px;
+}
+
 .text{
     background-color: rgb(192, 224, 248);
     border-radius: 10px;
