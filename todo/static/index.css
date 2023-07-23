@@ -1,10 +1,10 @@
 h1{
     border-bottom: solid rgb(119, 167, 236);
     text-align: center;
+    margin: 5px;
 }
 
 form{
-    background-color: rgb(191, 191, 191);
     padding: 4px;
     border-radius: 5px; 
 }
@@ -25,22 +25,19 @@ label{
 }
 
 .sort{
-    background-color: rgb(189, 255, 223);
     padding: 4px;
     margin-left: 4px;
     margin-right: 4px;
-    border-radius: 5px;
-    color: black;
-    text-decoration-line: none;
-    border: solid 1px rgb(92, 225, 160);
 }
 
-h2{
+.task{
     text-decoration-line: none;
-    color: rgb(107, 221, 185);
+    color: rgb(0, 147, 59);
 }
 
 .text{
     background-color: rgb(192, 224, 248);
     border-radius: 10px;
+    margin: 6px;
+    padding: 4px;
 }
