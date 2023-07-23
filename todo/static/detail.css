@@ -1,0 +1,23 @@
+h1{
+    border-bottom: solid rgb(107, 221, 185);
+    text-align: center;
+    margin: 5px;
+}
+
+ul{
+    background-color: rgb(193, 237, 212);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.la{
+    font-weight: bold;
+}
+
+.pos{
+    position: fixed;
+    right:15px;
+    bottom: 15px;
+    border-radius: 5px;
+    padding: 1px;
+}
