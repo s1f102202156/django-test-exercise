@@ -3,6 +3,12 @@ h1{
     text-align: center;
 }
 
+form{
+    background-color: rgb(191, 191, 191);
+    padding: 4px;
+    border-radius: 5px; 
+}
+
 label{
     font-weight: bold;
 }
@@ -12,10 +18,26 @@ label{
     justify-content: flex-end;
 }
 
-.Sort{
+.Sort-p{
     display: flex;
     justify-content: flex-end;
     padding-left: 5px;
+}
+
+.sort{
+    background-color: rgb(189, 255, 223);
+    padding: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 5px;
+    color: black;
+    text-decoration-line: none;
+    border: solid 1px rgb(92, 225, 160);
+}
+
+h2{
+    text-decoration-line: none;
+    color: rgb(107, 221, 185);
 }
 
 .text{

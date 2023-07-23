@@ -22,10 +22,10 @@
       {% endif %}
     </ul>
 
-    <a href="{% url 'delete' task.id %}"><button type="button">Delete</button></a>
-    <a href="{% url 'close' task.id %}"><button type="button">Close</button></a>
-    <div class="top">
-      <a href="{% url 'index' %}"><button type="button">Top</button></a>
+    <a class="delete" href="{% url 'delete' task.id %}">Delete</a>
+    <a class="close" href="{% url 'close' task.id %}">Close</a>
+    <div class="pos">
+      <a class="top" href="{% url 'index' %}">Top</a>
     </div>    
     
 
