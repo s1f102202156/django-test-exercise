@@ -1,0 +1,43 @@
+h1{
+    border-bottom: solid rgb(119, 167, 236);
+    text-align: center;
+    margin: 5px;
+}
+
+form{
+    padding: 4px;
+    border-radius: 5px; 
+}
+
+label{
+    font-weight: bold;
+}
+
+.submit{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Sort-p{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 5px;
+}
+
+.sort{
+    padding: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.task{
+    text-decoration-line: none;
+    color: rgb(0, 147, 59);
+}
+
+.text{
+    background-color: rgb(192, 224, 248);
+    border-radius: 10px;
+    margin: 6px;
+    padding: 4px;
+}
